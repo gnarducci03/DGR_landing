@@ -25,8 +25,8 @@ export function Footer() {
 
           <div>
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
-            <p>Email: email@dgr.com</p>
-            <p>Telefone: (61) 999999999</p>
+            <p></p>
+            <p>Telefone: (61) 982753197</p>
             <p>
               St. de Indústrias Q 2 Rua B Lotes 1 a 6 - Sobradinho, Brasília -
               DF
