@@ -22,7 +22,7 @@ export function ChatbotButton() {
       {isOpen && (
         <div className="fixed bottom-16 right-4 w-11/12 max-w-[40rem] h-[calc(100vh-4rem)] max-h-[48rem] bg-white shadow-lg rounded-lg overflow-hidden md:w-[40rem] md:h-[48rem]">
           <iframe
-            src="https://n8n-n8n-start.qzl94u.easypanel.host/webhook/d0c791d4-3677-47b4-989a-7c0ace1d1260/chat"
+            src={process.env.NEXT_PUBLIC_CHATBOT_API_URL}
             title="Chatbot"
             className="w-full h-full border-none"
           ></iframe>
